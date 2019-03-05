@@ -4,8 +4,7 @@ using namespace std;
 
 int main()
 {
-	long long sc = 0;
-	long long d = 0, h = 0, m = 0, s = 0;
+	long long sc = 0, d = 0, h = 0, m = 0, s = 0;
 	cout << "Enter a number of seconds: ";
 	cin >> sc;
 	d = sc / 86400;
