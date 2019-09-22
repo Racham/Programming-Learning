@@ -19,5 +19,6 @@ int main()
 	cout << "pisa's name: " << nums->name << endl;
 	cout << "pisa's weight: " << nums->weight << endl;
 	cout << "pisa's diameter: " << nums->diameter << endl;
+	delete nums;
 	return 0;
 }
